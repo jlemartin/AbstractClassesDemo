@@ -62,6 +62,7 @@ namespace ConsoleUI
                 Console.WriteLine($"Make: {v.Make} Model: {v.Model} Year: {v.Year}");
                 v.DriveAbstract();
                 v.DriveVirtual();
+                Console.WriteLine();
             }
 
             // Call each of the drive methods for one car and one motorcycle
